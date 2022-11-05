@@ -19,7 +19,7 @@ return new class extends Migration
             $table->text('category');
             $table->text('description');
             $table->string('author');
-            $table->integer('signess');
+            $table->integer('signees');
             $table->timestamps();
         });
     }

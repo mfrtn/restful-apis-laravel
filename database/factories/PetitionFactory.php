@@ -21,7 +21,7 @@ class PetitionFactory extends Factory
             'category' => fake()->text(50),
             'description' => fake()->text(200),
             'author' => fake()->name(),
-            'signess' => fake()->numberBetween(0, 1000000),
+            'signees' => fake()->numberBetween(0, 1000000),
         ];
     }
 }
